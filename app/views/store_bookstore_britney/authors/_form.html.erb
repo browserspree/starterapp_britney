@@ -1,0 +1,5 @@
+<%= f.input :name, as: :name %>
+<%= f.input :bio %>
+<%= f.association :books %>
+<%= f.association :categories, collection: Cms::Category.all %>
+<%= f.input :headshot, as: :file_picker %>

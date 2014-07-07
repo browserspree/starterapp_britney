@@ -1,0 +1,12 @@
+<dl>
+    <dt>Name:</dt><dd><%= @content_block.name %></dd>
+    <dt>Bio:</dt><dd><%= @content_block.bio %></dd>
+    <dt>Books:</dt>      
+      <dd>
+        <% @content_block.books.each do |book| %>
+          <li><%= book.name %></li>
+        <% end %>
+      </dd>
+        <dt>Headshot:</dt><dd><%= link_to "Headshot", attachment_path_for(@content_block.headshot) %></dd>
+    
+</dl>

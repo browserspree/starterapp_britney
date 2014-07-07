@@ -1,0 +1,25 @@
+<dl>
+    <dt>Name:</dt><dd><%= @content_block.name %></dd>
+    <dt>Price:</dt><dd><%= @content_block.price %></dd>
+    <dt>Author:</dt>
+      <dd>
+        <% @content_block.authors.each do |author| %>
+          <li><%= author.name %></li>
+        <% end %>
+      </dd>
+    <dt>Genres:</dt>
+      <dd>
+        <% @content_block.genres.each do |g| %>
+            <li><%= g.name %></li>
+        <% end %>
+      </dd>      
+    <dt>Language:</dt>
+      <dd>
+        <% @content_block.categories.each do |category| %>
+          <% if category.category_type.name == "Genres" %>
+            <li><%= category.name %></li>
+          <% end %>
+        <% end %>
+      </dd> 
+    <dt>Description:</dt><dd><%= @content_block.description.html_safe %></dd>    
+</dl>
