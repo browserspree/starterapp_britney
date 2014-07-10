@@ -1,10 +1,10 @@
 <dl>
     <dt>Name:</dt><dd><%= @content_block.name %></dd>
-    <dt>Price:</dt><dd><%= @content_block.price %></dd>
+    <dt>Price:</dt><dd>$<%= @content_block.price %></dd>
     <dt>Author:</dt>
       <dd>
         <% @content_block.authors.each do |author| %>
-          <li><%= author.name %></li>
+          <li><%= link_to author.name, author %></li>
         <% end %>
       </dd>
     <dt>Genres:</dt>
@@ -13,13 +13,14 @@
             <li><%= g.name %></li>
         <% end %>
       </dd>      
-    <dt>Language:</dt>
-      <dd>
-        <% @content_block.categories.each do |category| %>
-          <% if category.category_type.name == "Genres" %>
-            <li><%= category.name %></li>
-          <% end %>
-        <% end %>
-      </dd> 
     <dt>Description:</dt><dd><%= @content_block.description.html_safe %></dd>    
 </dl>
+<hr>
+<p>Here's some other books by this author:</p>
+<% @content_block.authors.each do |author| %>
+  <% author.books.each do |book| %>
+    <% unless book == @content_block %>
+      <li><%= link_to book.name, book %></li>
+    <% end %>
+  <% end %>
+<% end %>

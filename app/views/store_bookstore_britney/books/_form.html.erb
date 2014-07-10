@@ -1,7 +1,6 @@
 <%= f.input :name, as: :name %>
+<%= f.input :in_stock, as: :boolean %>
 <%= f.input :price %>
-
 <%= f.association :authors %>
 <%= f.association :categories, collection: Cms::Category.of_type("Genres"), label: "Genres" %>
-<%= f.association :categories, collection: Cms::Category.of_type("Language"), label: "Language" %>
 <%= f.input :description, as: :text_editor %>
