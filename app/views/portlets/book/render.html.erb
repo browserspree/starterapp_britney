@@ -1,0 +1,8 @@
+<% if @book %>
+  <% page_title @book.name %>
+  <h2><%=h @book.name %></h2>
+  <p><%= @book.description.html_safe %></p>
+<% else -%>
+  <b>Missing required parameter</b><br/>
+  This portlet expects a request parameter 'book_id'. Be sure the calling page provides it.
+<% end -%>
