@@ -3,11 +3,13 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title><%= page_title %></title>
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= yield :html_head %>
   </head>
-  <body style="margin: 0; padding: 0; text-align: center;">
-    <div id="wrapper" style="width: 700px; margin: 0 auto; text-align: left; padding: 30px">
-      Main Menu: <%= render_menu %>
+  <body>
+    <div>
+      Main Menu: <%= render_menu :class => "navbar navbar-default" :role => "navigation"%>
       <h1><%= page_header %></h1>
       <%= container :main %>
     </div>

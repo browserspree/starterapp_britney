@@ -3,11 +3,28 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title><%= page_title %></title>
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= yield :html_head %>
   </head>
-  <body style="margin: 0; padding: 0; text-align: center;">
-    <div id="wrapper" style="width: 700px; margin: 0 auto; text-align: left; padding: 30px">
-      Main Menu: <%= render_menu %>
+  <body>
+    <div>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><%= page_title %></a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <%= render_menu %>
+          </div>
+        </div>
+      </nav>
       <h1><%= page_header %></h1>
       <%= container :main %>
     </div>

@@ -1,0 +1,4341 @@
+/* line 17, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* COLORS & MIX-INS */
+/* RESET */
+/* line 34, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+html {
+  min-height: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: #f0f0f0;
+}
+@media only screen and (min-width: 802px) and (max-width: 1025px) {
+  /* line 34, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+  html {
+    font-size: 95%;
+  }
+}
+
+/* line 47, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* line 53, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 57, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+*:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* CLEAR & FLOATS */
+/* line 63, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+.clear {
+  clear: both !important;
+}
+
+/* line 66, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+.left {
+  float: left !important;
+}
+
+/* line 69, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+.right {
+  float: right !important;
+}
+
+/* line 72, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 80, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 83, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+.clearfix {
+  display: block;
+  *zoom: 1;
+}
+/* line 87, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/core.css.scss */
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* IMPORTING STYLES */
+/* BASE GRID */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.container, .flash-message {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+/* line 9, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.container:before, .flash-message:before, .container:after, .flash-message:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 14, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.container:after, .flash-message:after {
+  clear: both;
+}
+
+/* line 20, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+  *zoom: 1;
+}
+/* line 26, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.container-fluid:before, .container-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 31, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.container-fluid:after {
+  clear: both;
+}
+
+/* line 37, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+/* line 42, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row:before, .row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 47, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 53, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span12 {
+  width: 940px;
+}
+
+/* line 56, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span11 {
+  width: 860px;
+}
+
+/* line 59, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span10 {
+  width: 780px;
+}
+
+/* line 62, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span9 {
+  width: 700px;
+}
+
+/* line 65, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span8 {
+  width: 620px;
+}
+
+/* line 68, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span7 {
+  width: 540px;
+}
+
+/* line 71, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span6 {
+  width: 460px;
+}
+
+/* line 74, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span5 {
+  width: 380px;
+}
+
+/* line 77, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span4 {
+  width: 300px;
+}
+
+/* line 80, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span3 {
+  width: 220px;
+}
+
+/* line 83, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span2 {
+  width: 140px;
+}
+
+/* line 86, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.span1 {
+  width: 60px;
+}
+
+/* line 89, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset12 {
+  margin-left: 980px;
+}
+
+/* line 92, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset11 {
+  margin-left: 900px;
+}
+
+/* line 95, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset10 {
+  margin-left: 820px;
+}
+
+/* line 98, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset9 {
+  margin-left: 740px;
+}
+
+/* line 101, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset8 {
+  margin-left: 660px;
+}
+
+/* line 104, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset7 {
+  margin-left: 580px;
+}
+
+/* line 107, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset6 {
+  margin-left: 500px;
+}
+
+/* line 110, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset5 {
+  margin-left: 420px;
+}
+
+/* line 113, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset4 {
+  margin-left: 340px;
+}
+
+/* line 116, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset3 {
+  margin-left: 260px;
+}
+
+/* line 119, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset2 {
+  margin-left: 180px;
+}
+
+/* line 122, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.offset1 {
+  margin-left: 100px;
+}
+
+/* line 127, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid {
+  width: 100%;
+  *zoom: 1;
+}
+
+/* line 131, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid:before, .row-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 136, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid:after {
+  clear: both;
+}
+
+/* line 141, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid [class*="span"], .row-fluid-span {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
+}
+
+/* line 149, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid [class*="span"]:first-child, .row-fluid-span:first-child {
+  margin-left: 0;
+}
+
+/* line 152, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .controls-row [class*="span"] + [class*="span"] {
+  margin-left: 2.127659574468085%;
+}
+
+/* line 157, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span12 {
+  width: 100%;
+  *width: 99.94680851063829%;
+}
+
+/* line 161, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span11 {
+  width: 91.48936170212765%;
+  *width: 91.43617021276594%;
+}
+
+/* line 165, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span10 {
+  width: 82.97872340425532%;
+  *width: 82.92553191489361%;
+}
+
+/* line 169, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span9, .row-fluid-span9 {
+  width: 74.46808510638297%;
+  *width: 74.41489361702126%;
+}
+
+/* line 173, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span8 {
+  width: 65.95744680851064%;
+  *width: 65.90425531914893%;
+}
+
+/* line 177, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span7 {
+  width: 57.44680851063829%;
+  *width: 57.39361702127659%;
+}
+
+/* line 181, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span6 {
+  width: 48.93617021276595%;
+  *width: 48.88297872340425%;
+}
+
+/* line 185, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span5 {
+  width: 40.42553191489362%;
+  *width: 40.37234042553192%;
+}
+
+/* line 189, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span4 {
+  width: 31.914893617021278%;
+  *width: 31.861702127659576%;
+}
+
+/* line 193, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span3, .row-fluid-span3 {
+  width: 23.404255319148934%;
+  *width: 23.351063829787233%;
+}
+
+/* line 197, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span2 {
+  width: 14.893617021276595%;
+  *width: 14.840425531914894%;
+}
+
+/* line 201, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .span1 {
+  width: 6.382978723404255%;
+  *width: 6.329787234042553%;
+}
+
+/* line 205, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset12 {
+  margin-left: 104.25531914893617%;
+  *margin-left: 104.14893617021275%;
+}
+
+/* line 209, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset12:first-child {
+  margin-left: 102.12765957446808%;
+  *margin-left: 102.02127659574467%;
+}
+
+/* line 213, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset11 {
+  margin-left: 95.74468085106382%;
+  *margin-left: 95.6382978723404%;
+}
+
+/* line 217, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset11:first-child {
+  margin-left: 93.61702127659574%;
+  *margin-left: 93.51063829787232%;
+}
+
+/* line 221, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset10 {
+  margin-left: 87.23404255319149%;
+  *margin-left: 87.12765957446807%;
+}
+
+/* line 225, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset10:first-child {
+  margin-left: 85.1063829787234%;
+  *margin-left: 84.99999999999999%;
+}
+
+/* line 229, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset9 {
+  margin-left: 78.72340425531914%;
+  *margin-left: 78.61702127659572%;
+}
+
+/* line 233, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset9:first-child {
+  margin-left: 76.59574468085106%;
+  *margin-left: 76.48936170212764%;
+}
+
+/* line 237, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset8 {
+  margin-left: 70.2127659574468%;
+  *margin-left: 70.10638297872339%;
+}
+
+/* line 241, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset8:first-child {
+  margin-left: 68.08510638297872%;
+  *margin-left: 67.9787234042553%;
+}
+
+/* line 245, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset7 {
+  margin-left: 61.70212765957446%;
+  *margin-left: 61.59574468085106%;
+}
+
+/* line 249, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset7:first-child {
+  margin-left: 59.574468085106375%;
+  *margin-left: 59.46808510638297%;
+}
+
+/* line 253, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset6 {
+  margin-left: 53.191489361702125%;
+  *margin-left: 53.085106382978715%;
+}
+
+/* line 257, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset6:first-child {
+  margin-left: 51.063829787234035%;
+  *margin-left: 50.95744680851063%;
+}
+
+/* line 261, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset5 {
+  margin-left: 44.68085106382979%;
+  *margin-left: 44.57446808510638%;
+}
+
+/* line 265, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset5:first-child {
+  margin-left: 42.5531914893617%;
+  *margin-left: 42.4468085106383%;
+}
+
+/* line 269, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset4 {
+  margin-left: 36.170212765957444%;
+  *margin-left: 36.06382978723405%;
+}
+
+/* line 273, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset4:first-child {
+  margin-left: 34.04255319148936%;
+  *margin-left: 33.93617021276596%;
+}
+
+/* line 277, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset3 {
+  margin-left: 27.659574468085104%;
+  *margin-left: 27.5531914893617%;
+}
+
+/* line 281, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset3:first-child {
+  margin-left: 25.53191489361702%;
+  *margin-left: 25.425531914893618%;
+}
+
+/* line 285, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset2 {
+  margin-left: 19.148936170212764%;
+  *margin-left: 19.04255319148936%;
+}
+
+/* line 289, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset2:first-child {
+  margin-left: 17.02127659574468%;
+  *margin-left: 16.914893617021278%;
+}
+
+/* line 293, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset1 {
+  margin-left: 10.638297872340425%;
+  *margin-left: 10.53191489361702%;
+}
+
+/* line 297, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_base-grid.css.scss */
+.row-fluid .offset1:first-child {
+  margin-left: 8.51063829787234%;
+  *margin-left: 8.404255319148938%;
+}
+
+/* TEXT ELEMENTS */
+/* line 8, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+/* line 15, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+h1 {
+  font-size: 37px;
+  font-size: 2.3rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  margin-top: -5px;
+}
+
+/* line 20, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+h2 {
+  font-size: 30px;
+  font-size: 1.85rem;
+  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
+}
+
+/* line 24, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+h3 {
+  font-size: 22px;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+}
+
+/* line 28, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+h4 {
+  font-size: 18px;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+}
+
+/* line 32, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+h5 {
+  font-size: 14px;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+}
+
+/* line 36, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+h6 {
+  font-size: 12px;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+/* line 41, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  margin-bottom: 18px;
+  margin-bottom: 1.1rem;
+  font-weight: 400;
+}
+/* line 48, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+p.lead {
+  font-size: 22px;
+  font-size: 1.35rem;
+}
+/* line 52, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+p small {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+/* line 56, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+strong {
+  font-weight: 700;
+}
+
+/* line 59, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+em {
+  font-style: italic;
+}
+
+/* line 70, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  color: #505050;
+}
+
+/* line 73, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.primary-color {
+  color: #095aa6;
+}
+
+/* line 76, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.secondary-color {
+  color: #0079c1;
+}
+
+/* line 79, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.dark {
+  color: #505050;
+}
+
+/* line 82, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.gray {
+  color: #9a9999;
+}
+
+/* line 85, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.light {
+  color: #f0f0f0;
+}
+
+/* line 89, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 92, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 95, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 98, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+.text-justify {
+  text-align: justify;
+}
+
+/* line 102, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+blockquote {
+  display: block;
+  width: 100%;
+  border-left: 7px solid #095aa6;
+  padding: 4px 0 8px 24px;
+  padding: 0.25rem 0 0.5rem 1.5rem;
+  margin: 32px 0;
+  margin: 2rem 0;
+}
+/* line 109, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+blockquote p {
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+/* line 116, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+blockquote small {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+/* line 123, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+blockquote cite {
+  font-style: italic;
+}
+
+/* line 128, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_text.css.scss */
+hr {
+  border: 0;
+  background: #f0f0f0;
+  height: 1px;
+  width: 70%;
+  margin: 36px auto;
+  margin: 2.25rem auto;
+  display: block;
+}
+
+/* IMAGE STYLES */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+/* line 10, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+img[data-type="image_block"] {
+  width: auto;
+  max-width: 100%;
+}
+
+/* line 16, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+img[data-purpose='attachment'] {
+  width: 60px;
+}
+
+/* line 19, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.img-rounded {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 22, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.img-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 25, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.img-polaroid {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #f0f0f0;
+  padding: 5px;
+  padding: 0.3rem;
+}
+
+/* line 32, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnails {
+  list-style: none;
+  *zoom: 1;
+}
+/* line 37, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnails:before, .thumbnails:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+/* line 43, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnails:after {
+  clear: both;
+}
+/* line 47, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.row-fluid .thumbnails {
+  margin-left: 0;
+}
+/* line 51, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnails > li {
+  float: left;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+/* line 55, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnails > li:before {
+  display: none;
+  content: "";
+}
+
+/* line 62, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnail {
+  display: block;
+  padding: 5px;
+  padding: 0.3rem;
+  line-height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #f0f0f0;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: background 0.25s;
+  -o-transition: background 0.25s;
+  transition: background 0.25s;
+}
+/* line 71, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnail img {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 79, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnail:hover, .thumbnail:focus {
+  background: rgba(9, 90, 166, 0.9);
+}
+/* line 83, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_images.css.scss */
+.thumbnail .caption {
+  padding: 9px;
+  color: #505050;
+}
+
+/* LIST STYLES */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  list-style-type: none;
+  *list-style-type: disc;
+}
+/* line 9, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 6px;
+  margin-bottom: 0.4rem;
+  color: #505050;
+}
+/* line 16, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul li:before {
+  content: '\25CF';
+  color: #095aa6;
+  font-size: 13px;
+  font-size: 0.8rem;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 2px;
+  margin: 0 16px 0 0;
+  margin: 0 1rem 0 0;
+}
+/* line 26, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul li ul {
+  *list-style-type: circle;
+  margin: 6px 0 8px 24px;
+  margin: 0.4rem 0 0.5rem 1.5rem;
+}
+/* line 30, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul li ul li {
+  font-size: 16px;
+  font-size: 1rem;
+}
+/* line 33, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul li ul li:before {
+  content: '\25CB';
+}
+/* line 42, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul.unstyled li:before {
+  display: none;
+}
+/* line 46, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul.unstyled li ul {
+  *list-style-type: circle;
+}
+/* line 50, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ul.unstyled li ul li:before {
+  content: '\25CB';
+  color: #095aa6;
+  font-size: 13px;
+  font-size: 0.8rem;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 2px;
+  margin: 0 16px 0 0;
+  margin: 0 1rem 0 0;
+}
+
+/* line 65, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ol {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  list-style-type: decimal;
+  margin-left: 24px;
+  margin-left: 1.5rem;
+}
+/* line 71, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+ol li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-size: 1.1rem;
+  color: #505050;
+  font-weight: 400;
+  margin-bottom: 6px;
+  margin-bottom: 0.4rem;
+}
+
+/* line 80, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+dl {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: #505050;
+  font-size: 18px;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+/* line 87, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+dl dt {
+  font-weight: 600;
+  display: block;
+  width: 30%;
+  float: left;
+  text-align: right;
+  padding-right: 22px;
+  padding-right: 1.35rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 99, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+dl dd {
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  display: block;
+  width: 70%;
+  float: left;
+}
+/* line 106, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_lists.css.scss */
+dl:after {
+  clear: both;
+  content: "";
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* LINK & BUTTON STYLES */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+a {
+  color: #095aa6;
+  text-decoration: none;
+}
+/* line 7, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+a:hover {
+  text-decoration: underline;
+  color: #0079c1;
+}
+
+/* line 12, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 16, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn {
+  display: inline-block;
+  margin: 0;
+  box-shadow: none;
+  padding: 0 28px;
+  padding: 0 1.75rem;
+  height: 52px;
+  height: 3.25rem;
+  line-height: 50px;
+  line-height: 3.1rem;
+  font-size: 19px;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #505050;
+  background: #e6e6e6;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  text-align: center;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  outline: 0;
+}
+/* line 35, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn:hover {
+  color: #505050;
+  text-decoration: none;
+  background: #dbdbdb;
+}
+/* line 40, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn.disabled:hover {
+  background: #e6e6e6;
+}
+/* line 44, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn.disabled {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  cursor: default;
+}
+
+/* line 50, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-large {
+  padding: 0 44px;
+  padding: 0 2.75rem;
+  font-size: 22px;
+  font-size: 1.35rem;
+  height: 64px;
+  height: 4rem;
+  line-height: 61px;
+  line-height: 3.8rem;
+}
+
+/* line 56, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-small {
+  padding: 0 19px;
+  padding: 0 1.2rem;
+  font-size: 16px;
+  font-size: 1rem;
+  height: 40px;
+  height: 2.5rem;
+  line-height: 37px;
+  line-height: 2.3rem;
+}
+
+/* line 62, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-mini {
+  padding: 0 14px;
+  padding: 0 0.875rem;
+  font-size: 14px;
+  font-size: 0.875rem;
+  height: 32px;
+  height: 2rem;
+  line-height: 30px;
+  line-height: 1.9rem;
+}
+
+/* line 68, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-block {
+  width: 100%;
+}
+
+/* line 72, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-primary {
+  background: #095aa6;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 77, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-primary:hover {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  background: #085297;
+}
+/* line 82, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-primary.disabled:hover {
+  background: #095aa6;
+}
+
+/* line 86, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-info {
+  background: #0099f4;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 91, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-info:hover {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  background: #008ce0;
+}
+/* line 96, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-info.disabled:hover {
+  background: #0099f4;
+}
+
+/* line 100, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-inverse {
+  background: #505050;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 105, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-inverse:hover {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  background: #434343;
+}
+/* line 110, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-inverse.disabled:hover {
+  background: #505050;
+}
+
+/* line 114, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-success {
+  background: #2ecc71;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 119, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-success:hover {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  background: #2abb68;
+}
+/* line 124, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-success.disabled:hover {
+  background: #2ecc71;
+}
+
+/* line 128, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-warning {
+  background: #f1c40f;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 133, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-warning:hover {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  background: #e3b90d;
+}
+/* line 138, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-warning.disabled:hover {
+  background: #f1c40f;
+}
+
+/* line 142, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-danger {
+  background: #e74c3c;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 147, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-danger:hover {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  background: #e43321;
+}
+/* line 152, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-danger.disabled:hover {
+  background: #e74c3c;
+}
+
+/* line 156, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-link {
+  background: none;
+  border: 0;
+  color: #095aa6;
+  -webkit-transition: 0;
+  -o-transition: 0;
+  transition: 0;
+}
+/* line 162, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-link:hover {
+  text-decoration: underline;
+  color: #0079c1;
+  background: none;
+}
+/* line 167, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-link.disabled:hover {
+  color: #095aa6;
+  text-decoration: none;
+  background: none;
+}
+
+/* line 175, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+button.btn,
+input[type="submit"].btn {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+
+/* line 181, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+button.btn::-moz-focus-inner,
+input[type="submit"].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 187, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+button.btn.btn-large,
+input[type="submit"].btn.btn-large {
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+
+/* line 193, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+button.btn.btn-small,
+input[type="submit"].btn.btn-small {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+
+/* line 199, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+button.btn.btn-mini,
+input[type="submit"].btn.btn-mini {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+
+/* line 206, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-link,
+.btn-link:active,
+.btn-link[disabled] {
+  background-color: transparent;
+  background-image: none;
+}
+
+/* line 212, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-group {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *margin-left: .3em;
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  *zoom: 1;
+}
+/* line 222, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-group .btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  margin-left: -1px;
+  font-size: 1rem;
+  vertical-align: top;
+}
+/* line 228, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-group .btn:first-child {
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  margin-left: 0;
+}
+/* line 232, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-group .btn:last-child {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+/* line 235, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-group .btn:only-child {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 239, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-group .btn-solo:only-of-type {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 243, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-group:first-child {
+  *margin-left: 0;
+}
+
+/* line 246, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_buttons.css.scss */
+.btn-group + .btn-group {
+  margin-left: 5px;
+}
+
+/* TABLE STYLES */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table {
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-size: 1.1rem;
+  color: #505050;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  border-spacing: 0;
+  display: table;
+}
+/* line 13, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table thead {
+  display: table-header-group;
+  background: #f0f0f0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+/* line 18, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table thead th {
+  display: table-cell;
+  font-weight: 600;
+  padding: 11px;
+  padding: 0.7rem;
+}
+/* line 25, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table tr {
+  display: table-row;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+/* line 29, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table tr:last-child {
+  border: 0;
+}
+/* line 34, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table td {
+  display: table-cell;
+  padding: 11px;
+  padding: 0.7rem;
+}
+
+/* line 41, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-striped thead {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+/* line 45, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-striped tbody tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.035);
+}
+/* line 48, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-striped tbody tr:nth-child(odd) {
+  background: rgba(240, 240, 240, 0.25);
+}
+/* line 51, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-striped tbody tr:last-child {
+  border-bottom: 0;
+}
+
+/* line 58, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-collapse: separate;
+  *border-collapse: collapse;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 64, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered thead {
+  display: table-header-group;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+/* line 68, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered thead th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
+}
+/* line 72, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered thead th:first-child {
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -ms-border-radius: 5px 0 0 0;
+  -o-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+}
+/* line 75, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered thead th:last-child {
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -ms-border-radius: 0 5px 0 0;
+  -o-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
+  border-right: 0;
+}
+/* line 80, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered thead th:only-child {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+/* line 87, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered tbody tr td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
+}
+/* line 91, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered tbody tr td:last-child {
+  border-right: 0;
+}
+/* line 97, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered tbody tr:last-child td {
+  border-bottom: 0;
+}
+/* line 100, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered tbody tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 5px;
+  -moz-border-radius: 0 0 0 5px;
+  -ms-border-radius: 0 0 0 5px;
+  -o-border-radius: 0 0 0 5px;
+  border-radius: 0 0 0 5px;
+}
+/* line 103, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered tbody tr:last-child td:last-child {
+  -webkit-border-radius: 0 0 5px 0;
+  -moz-border-radius: 0 0 5px 0;
+  -ms-border-radius: 0 0 5px 0;
+  -o-border-radius: 0 0 5px 0;
+  border-radius: 0 0 5px 0;
+}
+/* line 107, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-bordered tbody tr:last-child td:only-child {
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -ms-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+/* line 119, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-hover tbody tr:hover {
+  background: rgba(240, 240, 240, 0.65);
+}
+
+/* line 126, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-condensed {
+  font-size: 16px;
+  font-size: 1rem;
+}
+/* line 129, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.table-condensed thead th, .table-condensed td {
+  padding: 6px 11px;
+  padding: 0.35rem 0.7rem;
+}
+
+/* line 134, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.success {
+  background: rgba(46, 204, 113, 0.3);
+}
+
+/* line 137, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.error {
+  background: rgba(231, 76, 60, 0.3);
+}
+
+/* line 140, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_tables.css.scss */
+.warning {
+  background: rgba(241, 196, 15, 0.3);
+}
+
+/* FORM STYLES */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+form {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+/* line 7, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 13, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-inline .btn {
+  height: 40px;
+  height: 2.5rem;
+  vertical-align: top;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 20px;
+  line-height: 1.25rem;
+}
+
+/* line 20, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-size: 1.4rem;
+  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #505050;
+  border-bottom: 1px solid #f0f0f0;
+}
+/* line 33, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+legend small {
+  font-size: 18px;
+  font-size: 1.1rem;
+}
+
+/* line 42, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+label,
+input,
+select,
+textarea,
+.uneditable-input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #505050;
+}
+
+/* line 49, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+label {
+  display: block;
+  margin-bottom: 6px;
+  margin-bottom: 0.4rem;
+  margin-top: 8px;
+  margin-top: 0.5rem;
+}
+
+/* line 73, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+input[type="tag_list"],
+input[type="number"],
+.uneditable-input {
+  height: 40px;
+  height: 2.5rem;
+  padding: 8px 10px;
+  padding: 0.5rem 0.65rem;
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: middle;
+  color: #6a6a6a;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 84, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input[type="date"] {
+  min-width: 166px;
+}
+
+/* line 90, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input,
+textarea,
+.uneditable-input {
+  width: 400px;
+  width: 25rem;
+}
+
+/* line 93, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+textarea {
+  height: auto;
+  resize: both;
+  max-width: 100%;
+}
+
+/* line 116, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+input[type="tag_list"],
+input[type="number"],
+.uneditable-input {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-transition: border 0.2s, background 0.2s;
+  -o-transition: border 0.2s, background 0.2s;
+  transition: border 0.2s, background 0.2s;
+}
+
+/* line 122, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.uneditable-input,
+.uneditable-textarea {
+  display: inline-block;
+  cursor: not-allowed;
+  background-color: rgba(240, 240, 240, 0.6);
+}
+
+/* line 127, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.uneditable-input {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* line 131, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.uneditable-textarea {
+  width: auto;
+  height: auto;
+}
+
+/* line 152, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+input[type="tag_list"]:focus,
+.uneditable-input:focus {
+  outline: 0;
+  outline: thin dotted \9;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  background: rgba(240, 240, 240, 0.5);
+}
+
+/* line 160, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 3px 16px 8px 0;
+  margin: 0.2rem 1rem 0.5rem 0;
+  margin-top: 1px \9;
+  *margin-top: 0;
+  line-height: normal;
+}
+
+/* line 173, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+
+/* line 177, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+select,
+input[type="file"] {
+  height: 40px;
+  height: 2.5rem;
+  /* In IE7, the height of the select element cannot be changed by height, only font-size */
+  *margin-top: 4px;
+  /* For IE7, add top margin to align select with labels */
+  line-height: 24px;
+  line-height: 1.5rem;
+}
+
+/* line 185, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+select {
+  width: 400px;
+  width: 25rem;
+  padding: 8px 10px;
+  padding: 0.5rem 0.65rem;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* line 192, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+/* line 198, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 205, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: rgba(80, 80, 80, 0.5);
+}
+
+/* line 209, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: rgba(80, 80, 80, 0.5);
+}
+
+/* line 213, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: rgba(80, 80, 80, 0.5);
+}
+
+/* line 218, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.radio,
+.checkbox {
+  min-height: 24px;
+  min-height: 1.5rem;
+  padding-left: 24px;
+  padding-left: 1.5rem;
+}
+
+/* line 224, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -24px;
+  margin-left: -1.5rem;
+  margin-top: 4px;
+  margin-top: 0.25rem;
+}
+
+/* line 231, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.controls > .radio:first-child,
+.controls > .checkbox:first-child {
+  padding-top: 10px;
+  padding-top: 0.6rem;
+}
+
+/* line 236, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.radio.inline,
+.checkbox.inline {
+  display: inline-block;
+  padding-top: 8px;
+  padding-top: 0.5rem;
+  margin-bottom: 0;
+  vertical-align: middle;
+  margin-right: 0;
+  margin-right: 0;
+}
+
+/* line 244, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.radio.inline + .radio.inline,
+.checkbox.inline + .checkbox.inline {
+  margin-left: 40px;
+  margin-left: 2.5rem;
+}
+
+/* line 249, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-mini {
+  width: 80px;
+  width: 5rem;
+}
+
+/* line 252, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-small {
+  width: 144px;
+  width: 9rem;
+}
+
+/* line 255, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-medium {
+  width: 192px;
+  width: 12rem;
+}
+
+/* line 258, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-large {
+  width: 240px;
+  width: 15rem;
+}
+
+/* line 261, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-xlarge {
+  width: 352px;
+  width: 22rem;
+}
+
+/* line 264, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-xxlarge {
+  width: 560px;
+  width: 35rem;
+  font-size: 19px !important;
+  font-size: 1.2rem !important;
+  height: 52px !important;
+  height: 3.25rem !important;
+  line-height: 50px !important;
+  line-height: 3.1rem !important;
+}
+
+/* line 270, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-block-level {
+  display: block;
+  width: 100%;
+}
+
+/* line 277, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.help-block,
+.help-inline {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-size: 0.95rem;
+  line-height: 1;
+  font-weight: 400;
+  color: #505050;
+}
+
+/* line 284, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.help-block {
+  display: block;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+/* line 288, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.help-inline {
+  display: inline-block;
+  *display: inline;
+  line-height: 1;
+  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
+  padding-left: 16px;
+  padding-left: 1rem;
+  vertical-align: middle;
+  *zoom: 1;
+}
+
+/* line 300, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append,
+.input-prepend {
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  font-size: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* line 317, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append input,
+.input-prepend input,
+.input-append select,
+.input-prepend select,
+.input-append .uneditable-input,
+.input-prepend .uneditable-input,
+.input-append .dropdown-menu,
+.input-prepend .dropdown-menu,
+.input-append .popover,
+.input-prepend .popover {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+/* line 326, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append input,
+.input-prepend input,
+.input-append select,
+.input-prepend select,
+.input-append .uneditable-input,
+.input-prepend .uneditable-input {
+  position: relative;
+  margin-bottom: 0;
+  *margin-left: 0;
+  vertical-align: top;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* line 339, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append input:focus,
+.input-prepend input:focus,
+.input-append select:focus,
+.input-prepend select:focus,
+.input-append .uneditable-input:focus,
+.input-prepend .uneditable-input:focus {
+  z-index: 2;
+}
+
+/* line 344, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append .add-on,
+.input-prepend .add-on {
+  display: inline-block;
+  width: auto;
+  height: 40px;
+  height: 2.5rem;
+  padding: 8px 10px;
+  padding: 0.5rem 0.65rem;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 20px;
+  line-height: 1.25rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: rgba(80, 80, 80, 0.65);
+  text-align: center;
+  background: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 359, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-prepend .btn {
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  height: 40px;
+  height: 2.5rem;
+  line-height: 34px;
+  line-height: 2.1rem;
+  font-size: 18px;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+/* line 366, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append .btn {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  height: 40px;
+  height: 2.5rem;
+  line-height: 34px;
+  line-height: 2.1rem;
+  font-size: 18px;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+/* line 379, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append .add-on,
+.input-prepend .add-on,
+.input-append .btn,
+.input-prepend .btn,
+.input-append .btn-group > .dropdown-toggle,
+.input-prepend .btn-group > .dropdown-toggle {
+  vertical-align: top;
+}
+
+/* line 384, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append .active,
+.input-prepend .active {
+  background-color: #a9dba9;
+  border-color: #46a546;
+}
+
+/* line 390, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-prepend .add-on,
+.input-prepend .btn {
+  margin-right: -1px;
+}
+
+/* line 395, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-prepend .add-on:first-child,
+.input-prepend .btn:first-child {
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+/* line 401, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append input,
+.input-append select,
+.input-append .uneditable-input {
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+/* line 406, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append input + .btn-group .btn:last-child,
+.input-append select + .btn-group .btn:last-child,
+.input-append .uneditable-input + .btn-group .btn:last-child {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* line 411, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append .add-on,
+.input-append .btn,
+.input-append .btn-group {
+  margin-left: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 417, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-append .add-on:last-child,
+.input-append .btn:last-child,
+.input-append .btn-group:last-child > .dropdown-toggle {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* line 423, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-prepend.input-append input,
+.input-prepend.input-append select,
+.input-prepend.input-append .uneditable-input {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 428, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-prepend.input-append input + .btn-group .btn,
+.input-prepend.input-append select + .btn-group .btn,
+.input-prepend.input-append .uneditable-input + .btn-group .btn {
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* line 432, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-prepend.input-append .add-on:first-child,
+.input-prepend.input-append .btn:first-child {
+  margin-right: -1px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+/* line 437, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-prepend.input-append .add-on:last-child,
+.input-prepend.input-append .btn:last-child {
+  margin-right: -1px;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* line 441, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.input-prepend.input-append .btn-group:first-child {
+  margin-left: 0;
+}
+
+/* line 445, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input.search-query {
+  padding-left: 40px;
+  padding-left: 2.5rem;
+  background-image: url(/assets/cms/search.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: auto 50%;
+}
+/* line 452, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input.search-query:focus {
+  background-image: url(/assets/cms/search.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: auto 50%;
+}
+
+/* line 480, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-search input,
+.form-inline input,
+.form-horizontal input,
+.form-search textarea,
+.form-inline textarea,
+.form-horizontal textarea,
+.form-search select,
+.form-inline select,
+.form-horizontal select,
+.form-search .help-inline,
+.form-inline .help-inline,
+.form-horizontal .help-inline,
+.form-search .uneditable-input,
+.form-inline .uneditable-input,
+.form-horizontal .uneditable-input,
+.form-search .input-prepend,
+.form-inline .input-prepend,
+.form-horizontal .input-prepend,
+.form-search .input-append,
+.form-inline .input-append,
+.form-horizontal .input-append {
+  display: inline-block;
+  *display: inline;
+  margin-bottom: 0;
+  vertical-align: middle;
+  *zoom: 1;
+}
+
+/* line 490, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-search .hide,
+.form-inline .hide,
+.form-horizontal .hide {
+  display: none;
+}
+
+/* line 497, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-search label,
+.form-inline label,
+.form-search .btn-group,
+.form-inline .btn-group {
+  display: inline-block;
+}
+
+/* line 504, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-search .input-append,
+.form-inline .input-append,
+.form-search .input-prepend,
+.form-inline .input-prepend {
+  margin-bottom: 0;
+}
+
+/* line 511, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-search .radio,
+.form-search .checkbox,
+.form-inline .radio,
+.form-inline .checkbox {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* line 520, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-search .radio input[type="radio"],
+.form-search .checkbox input[type="checkbox"],
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
+  float: left;
+  margin-right: 8px;
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+/* line 532, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: rgba(240, 240, 240, 0.6);
+}
+
+/* line 540, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][readonly],
+input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+
+/* line 547, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input:focus:invalid,
+textarea:focus:invalid,
+select:focus:invalid {
+  color: #e74c3c;
+}
+
+/* line 553, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+input:focus:invalid:focus,
+textarea:focus:invalid:focus,
+select:focus:invalid:focus {
+  border: 1px solid #e74c3c;
+}
+
+/* line 558, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-actions {
+  padding: 24px 2.1276595745% 28px 2.1276595745%;
+  padding: 1.5rem 2.1276595745% 1.75rem 2.1276595745%;
+  margin: 16px 0;
+  margin: 1rem 0;
+  background: rgba(240, 240, 240, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  *zoom: 1;
+}
+
+/* line 566, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-actions:before,
+.form-actions:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 571, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-actions:after {
+  clear: both;
+}
+
+/* line 580, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+legend + .control-group {
+  margin-top: 20px;
+  margin-top: 1.25rem;
+  -webkit-margin-top-collapse: separate;
+}
+
+/* line 584, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal .control-group {
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
+  *zoom: 1;
+}
+
+/* line 589, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal .control-group:before,
+.form-horizontal .control-group:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 594, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal .control-group:after {
+  clear: both;
+}
+
+/* line 598, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal .control-label {
+  float: left;
+  width: 160px;
+  width: 10rem;
+  padding-top: 8px;
+  padding-top: 0.5rem;
+  text-align: right;
+}
+
+/* line 604, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal .controls {
+  *display: inline-block;
+  *padding-left: 20px;
+  margin-left: 184px;
+  margin-left: 11.5rem;
+  *margin-left: 0;
+}
+
+/* line 610, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal .controls:first-child {
+  *padding-left: 180px;
+}
+
+/* line 613, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal .help-block {
+  margin-bottom: 0;
+}
+
+/* line 621, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block,
+.form-horizontal .uneditable-input + .help-block,
+.form-horizontal .input-prepend + .help-block,
+.form-horizontal .input-append + .help-block {
+  margin-top: 12px;
+  margin-top: 0.75rem;
+}
+
+/* line 624, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.form-horizontal .form-actions {
+  padding-left: 184px;
+  padding-left: 11.5rem;
+}
+
+/* line 628, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.warning {
+  background: none;
+}
+
+/* line 633, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.warning .control-label,
+.control-group.warning .help-block,
+.control-group.warning .help-inline {
+  color: #f1c40f;
+}
+
+/* line 640, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.warning .checkbox,
+.control-group.warning .radio,
+.control-group.warning input,
+.control-group.warning select,
+.control-group.warning textarea {
+  color: #f1c40f;
+}
+
+/* line 645, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.warning input,
+.control-group.warning select,
+.control-group.warning textarea {
+  border-color: #f1c40f;
+}
+
+/* line 650, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.warning input:focus,
+.control-group.warning select:focus,
+.control-group.warning textarea:focus {
+  border-color: #f1c40f;
+}
+
+/* line 654, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.error {
+  background: none;
+}
+
+/* line 659, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.error .control-label,
+.control-group.error .help-block,
+.control-group.error .help-inline {
+  color: #e74c3c;
+}
+
+/* line 666, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.error .checkbox,
+.control-group.error .radio,
+.control-group.error input,
+.control-group.error select,
+.control-group.error textarea {
+  color: #e74c3c;
+}
+
+/* line 671, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.error input,
+.control-group.error select,
+.control-group.error textarea {
+  border-color: #e74c3c;
+}
+
+/* line 676, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.error input:focus,
+.control-group.error select:focus,
+.control-group.error textarea:focus {
+  border-color: #e74c3c;
+}
+
+/* line 680, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.success {
+  background: none;
+}
+
+/* line 685, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.success .control-label,
+.control-group.success .help-block,
+.control-group.success .help-inline {
+  color: #2ecc71;
+}
+
+/* line 692, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.success .checkbox,
+.control-group.success .radio,
+.control-group.success input,
+.control-group.success select,
+.control-group.success textarea {
+  color: #2ecc71;
+}
+
+/* line 697, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.success input,
+.control-group.success select,
+.control-group.success textarea {
+  border-color: #2ecc71;
+}
+
+/* line 702, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.success input:focus,
+.control-group.success select:focus,
+.control-group.success textarea:focus {
+  border-color: #2ecc71;
+}
+
+/* line 709, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.info .control-label,
+.control-group.info .help-block,
+.control-group.info .help-inline {
+  color: #0079c1;
+}
+
+/* line 716, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.info .checkbox,
+.control-group.info .radio,
+.control-group.info input,
+.control-group.info select,
+.control-group.info textarea {
+  color: #0079c1;
+}
+
+/* line 721, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.info input,
+.control-group.info select,
+.control-group.info textarea {
+  border-color: #0079c1;
+}
+
+/* line 727, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_forms.css.scss */
+.control-group.info input:focus,
+.control-group.info select:focus,
+.control-group.info textarea:focus {
+  border-color: #0079c1;
+}
+
+/* DROPDOWN STYLES */
+/* line 4, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropup,
+.dropdown {
+  position: relative;
+}
+
+/* line 8, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-toggle {
+  *margin-bottom: -3px;
+}
+
+/* line 13, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-toggle:active,
+.open .dropdown-toggle {
+  outline: 0;
+}
+
+/* line 17, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.caret {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  border-top: none;
+  display: inline;
+}
+/* line 25, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.caret:before {
+  content: "\25BE";
+}
+
+/* line 33, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  padding: 8px 0;
+  padding: 0.5rem 0;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: -1px;
+  list-style: none;
+  min-width: 100%;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.375);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -ms-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+/* line 52, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu:after {
+  width: 16px;
+  height: 16px;
+  background: white;
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  left: 26px;
+  margin-bottom: -8px;
+  border-left: 1px solid rgba(0, 0, 0, 0.375);
+  border-top: 1px solid rgba(0, 0, 0, 0.375);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: "";
+}
+/* line 67, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu li {
+  margin-bottom: 0;
+  z-index: 5;
+  position: relative;
+}
+/* line 72, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu li:before {
+  display: none;
+}
+
+/* line 78, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+/* line 82, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu.pull-right:after {
+  left: auto;
+  right: 26px;
+}
+
+/* line 88, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu .divider {
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin: 8px 0;
+  margin: 0.5rem 0;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 98, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu > li > a {
+  display: block;
+  padding: 0 24px 0 12px;
+  padding: 0 1.5rem 0 0.75rem;
+  font-size: 16px;
+  font-size: 1rem;
+  clear: both;
+  font-weight: normal;
+  line-height: 34px;
+  line-height: 2.15rem;
+  margin: 0;
+  color: #505050;
+  white-space: nowrap;
+}
+
+/* line 113, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  color: #505050;
+  text-decoration: none;
+  background-color: rgba(9, 90, 166, 0.1);
+  background-image: none;
+}
+
+/* line 122, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0081c2;
+  outline: 0;
+}
+
+/* line 131, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  color: #999999;
+}
+
+/* line 136, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  cursor: default;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+/* line 145, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.open {
+  *z-index: 1000;
+}
+
+/* line 148, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.open > .dropdown-toggle {
+  background: #c9c9c9;
+}
+
+/* line 151, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.open > .btn-primary.dropdown-toggle {
+  background: #084d8e;
+}
+
+/* line 154, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_dropdown.css.scss */
+.open > .dropdown-menu {
+  display: block;
+}
+
+/* PROGRESS BAR STYLES */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_progress.css.scss */
+.progress {
+  height: 28px;
+  height: 1.75rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  background: #f0f0f0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* line 11, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_progress.css.scss */
+.progress .bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  font-size: 0.75rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  background: #095aa6;
+  -webkit-transition: width 0.6s;
+  -o-transition: width 0.6s;
+  transition: width 0.6s;
+}
+/* line 25, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_progress.css.scss */
+.progress.progress-info .bar {
+  background: #0079c1;
+}
+/* line 30, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_progress.css.scss */
+.progress.progress-success .bar {
+  background: #2ecc71;
+}
+/* line 35, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_progress.css.scss */
+.progress.progress-warning .bar {
+  background: #f1c40f;
+}
+/* line 40, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_progress.css.scss */
+.progress.progress-danger .bar {
+  background: #e74c3c;
+}
+
+/* ALERT STYLES */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert, .flash-message {
+  padding: 16px 24px 20px 24px;
+  padding: 1rem 1.5rem 1.25rem 1.5rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  background: rgba(241, 196, 15, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  color: #aa8a0a;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  font-weight: 400;
+}
+/* line 15, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert h4, .flash-message h4 {
+  color: #aa8a0a;
+  margin: 0;
+}
+/* line 20, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert .close, .flash-message .close {
+  background: none;
+  border: 0;
+  z-index: 5;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-size: 22px;
+  font-size: 1.35rem;
+  color: rgba(0, 0, 0, 0.25);
+}
+/* line 31, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert .close:hover, .flash-message .close:hover, .alert .close:active, .flash-message .close:active {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 34, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert .close:focus, .flash-message .close:focus {
+  outline: none;
+}
+
+/* line 40, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-success {
+  color: #208e4e;
+  background: rgba(46, 204, 113, 0.35);
+}
+/* line 44, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-success h4 {
+  color: #208e4e;
+}
+
+/* line 50, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-danger,
+.alert-error {
+  color: #bf2718;
+  background: rgba(231, 76, 60, 0.3);
+}
+/* line 54, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-danger h4,
+.alert-error h4 {
+  color: #bf2718;
+}
+
+/* line 59, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-info, .flash-message {
+  color: #00598e;
+  background: rgba(0, 121, 193, 0.25);
+}
+/* line 63, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-info h4, .flash-message h4 {
+  color: #00598e;
+}
+
+/* line 68, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-primary {
+  color: white;
+  background: #095aa6;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 73, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-primary h4 {
+  color: white;
+}
+/* line 77, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-primary .close {
+  color: rgba(255, 255, 255, 0.75);
+  -webkit-font-smoothing: antialiased;
+}
+/* line 81, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-primary .close:hover {
+  color: white;
+}
+
+/* line 87, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-inverse {
+  color: white;
+  background: #505050;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 92, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-inverse h4 {
+  color: white;
+}
+/* line 96, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-inverse .close {
+  color: rgba(255, 255, 255, 0.75);
+  -webkit-font-smoothing: antialiased;
+}
+/* line 100, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-inverse .close:hover {
+  color: white;
+}
+
+/* line 106, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-block {
+  padding-top: 24px;
+  padding-top: 1.5rem;
+  padding-bottom: 28px;
+  padding-bottom: 1.75rem;
+}
+/* line 110, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-block h4 {
+  margin-bottom: 6px;
+  margin-bottom: 0.4rem;
+}
+/* line 113, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-block p, .alert-block ul {
+  margin-bottom: 0;
+}
+/* line 116, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-block p + p {
+  margin-top: 12px;
+  margin-top: 0.75rem;
+}
+
+/* line 121, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-small, .flash-message {
+  padding: 6px 12px 8px 12px;
+  padding: 0.35rem 0.75rem 0.5rem 0.75rem;
+  margin-bottom: 10px;
+  margin-bottom: 0.65rem;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.1;
+  line-height: 1.1;
+  font-weight: 600;
+}
+/* line 128, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.alert-small .close, .flash-message .close {
+  top: 0;
+  line-height: 1;
+  right: 2px;
+  color: #FFF;
+  font-weight: bold;
+  opacity: .8;
+  font-size: 1.35rem;
+  text-shadow: none;
+  padding: 0px 6px 3px;
+}
+
+/* line 142, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_alerts.css.scss */
+.flash-message {
+  margin-top: 10px;
+  margin-bottom: -43px;
+}
+
+/* MODAL STYLES */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-open {
+  overflow: hidden;
+}
+
+/* line 7, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+  outline: 0;
+}
+/* line 21, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal.fade .modal-dialog {
+  -webkit-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 28, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal.in .modal-dialog {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 34, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+
+/* line 40, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-content {
+  background: white;
+  background-clip: padding-box;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  outline: none;
+  position: fixed;
+  width: 40%;
+  left: 30%;
+  height: auto;
+  top: 20%;
+  bottom: auto;
+  overflow: hidden;
+}
+
+/* line 58, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header {
+  padding: 15px 20px;
+  background: rgba(240, 240, 240, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+/* line 64, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header h3 {
+  margin-bottom: 0;
+}
+/* line 68, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header .close {
+  background: none;
+  border: 0;
+  z-index: 5;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 22px;
+  font-size: 1.35rem;
+  color: rgba(0, 0, 0, 0.25);
+}
+/* line 79, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header .close:hover, .modal-header .close:active {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 82, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header .close:focus {
+  outline: none;
+}
+/* line 87, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header.modal-success {
+  background: rgba(46, 204, 113, 0.35);
+}
+/* line 91, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header.modal-danger, .modal-header.modal-error {
+  background: rgba(231, 76, 60, 0.3);
+}
+/* line 94, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header.modal-info {
+  background: rgba(0, 121, 193, 0.25);
+}
+/* line 97, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header.modal-primary {
+  background: #095aa6;
+}
+/* line 100, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-header.modal-primary h3 {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 107, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-title {
+  margin: 0;
+}
+
+/* line 112, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-body {
+  position: relative;
+  padding: 20px 20px 25px;
+  overflow-y: auto;
+  max-height: 300px;
+}
+/* line 120, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-body p:only-child, .modal-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 126, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-footer {
+  padding: 20px 20px;
+  text-align: right;
+  background: rgba(240, 240, 240, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+/* line 134, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-footer button,
+.modal-footer .btn,
+.modal-footer .btn-group {
+  margin-bottom: 0;
+}
+/* line 138, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+/* line 142, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+/* line 145, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+/* line 150, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-footer:before, .modal-footer:after {
+  display: table;
+  content: " ";
+}
+/* line 154, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-footer:after {
+  clear: both;
+}
+
+/* line 159, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+/* line 168, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 172, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_modal.css.scss */
+.modal-backdrop.in {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url(/assets/icomoon.eot);
+  src: url(/assets/icomoon.eot?#iefix) format("embedded-opentype"), url(/assets/icomoon.svg#icomoon) format("svg"), url(/assets/icomoon.woff) format("woff"), url(/assets/icomoon.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* line 13, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+/* line 30, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-search, .icon-cog, .icon-house, .icon-link, .icon-radio-checked, .icon-radio-unchecked, .icon-checkbox-checked, .icon-checkbox-unchecked, .icon-file, .icon-folder, .icon-folder-open, .icon-earth, .icon-list, .icon-eye-blocked, .icon-locked {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 41, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-link:before {
+  content: "\e004";
+}
+
+/* line 45, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-search:before {
+  content: "\e003";
+}
+
+/* line 48, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-cog:before {
+  content: "\e004";
+}
+
+/* line 51, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-house:before {
+  content: "\e006";
+}
+
+/* line 54, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-radio-checked:before {
+  content: "\e007";
+}
+
+/* line 57, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-radio-unchecked:before {
+  content: "\e008";
+}
+
+/* line 60, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-checkbox-checked:before {
+  content: "\e009";
+}
+
+/* line 63, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-checkbox-unchecked:before {
+  content: "\e00a";
+}
+
+/* line 66, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-file:before {
+  content: "\e00b";
+}
+
+/* line 69, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-folder:before {
+  content: "\e00c";
+}
+
+/* line 72, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-folder-open:before {
+  content: "\e00e";
+}
+
+/* line 75, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-earth:before {
+  content: "\e00f";
+}
+
+/* line 78, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-list:before {
+  content: "\e010";
+}
+
+/* line 81, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-eye-blocked:before {
+  content: "\e000";
+}
+
+/* line 84, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/styles/_glyph.css.scss */
+.icon-locked:before {
+  content: "\e001";
+}
+
+/* PAGE STYLE & LAYOUT IMPORTS */
+/* BLOCKING OUT ELEMENTS */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_base.css.scss */
+article, aside, div, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+  position: relative;
+}
+
+/* line 7, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_base.css.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 12, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_base.css.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* CONTAINER SIZING */
+/* line 17, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_base.css.scss */
+.center-column, .flash-message {
+  width: 80%;
+  min-width: 960px;
+}
+@media only screen and (min-width: 802px) and (max-width: 1025px) {
+  /* line 17, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_base.css.scss */
+  .center-column, .flash-message {
+    width: 960px;
+  }
+}
+
+/* line 25, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_base.css.scss */
+.main-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: white;
+  padding: 24px 0 40px 0;
+  padding: 1.5rem 0 2.5rem 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+/* line 34, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_base.css.scss */
+.main-container.no-bottom {
+  padding: 24px 0 0 0;
+  padding: 1.5rem 0 0 0;
+}
+
+/* line 39, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_base.css.scss */
+.padded {
+  width: 100%;
+  padding: 0 2.127659574468085%;
+  *padding: 0 2.074468085106383%;
+}
+
+/* COLORS */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_colors.css.scss */
+.color-block {
+  height: 144px;
+  height: 9rem;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 7, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_colors.css.scss */
+.primary-back {
+  background-color: #095aa6;
+}
+
+/* line 10, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_colors.css.scss */
+.secondary-back {
+  background-color: #0079c1;
+}
+
+/* line 13, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_colors.css.scss */
+.dark-back {
+  background-color: #505050;
+}
+
+/* line 16, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_colors.css.scss */
+.gray-back {
+  background-color: #9a9999;
+}
+
+/* line 19, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_colors.css.scss */
+.light-back {
+  background-color: #f0f0f0;
+}
+
+/* PRIMARY ACTION BUTTONS */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.top-buttons {
+  padding-top: 5px;
+  padding-top: 0.3rem;
+}
+/* line 6, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.top-buttons h4 {
+  margin-right: 48px;
+  margin-right: 3rem;
+  line-height: 40px;
+  line-height: 2.5rem;
+}
+/* line 12, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.top-buttons .btn-primary,
+.top-buttons .btn-group {
+  margin-left: 8px;
+  margin-left: 0.5rem;
+}
+/* line 15, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.top-buttons .btn-primary.dropdown-toggle,
+.top-buttons .btn-group.dropdown-toggle {
+  margin-left: 0;
+}
+/* line 20, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.top-buttons .form-inline {
+  margin-bottom: 0;
+}
+/* line 24, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.top-buttons .form-inline label,
+.top-buttons .form-inline select {
+  display: inline-block;
+  float: left;
+}
+/* line 29, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.top-buttons .form-inline .show-sort {
+  width: 144px;
+  width: 9rem;
+  margin-right: 16px;
+  margin-right: 1rem;
+  margin-left: 10px;
+  margin-left: 0.65rem;
+}
+/* line 37, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.top-buttons .pull-right:after {
+  left: auto;
+  right: 16px;
+}
+
+/* line 44, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.form-actions {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+/* line 48, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.form-actions .btn-primary {
+  margin-left: 12px;
+  margin-left: 0.75rem;
+}
+/* line 54, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.form-actions button,
+.form-actions .btn,
+.form-actions .btn-group {
+  margin-bottom: 0;
+}
+
+/* line 59, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.bottom-form-btn {
+  padding-bottom: 0;
+}
+
+/* line 64, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.btn-group .btn-primary {
+  font-size: 1.2rem;
+}
+/* line 67, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.btn-group .dropdown-toggle {
+  padding: 0 1.75rem !important;
+}
+
+/* line 72, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-buttons.css.scss */
+.btn-bottom-margin {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+/* INLINE FORM LABELS */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-forms.css.scss */
+.infield-label {
+  display: block;
+  position: relative;
+}
+/* line 7, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-forms.css.scss */
+.infield-label label {
+  bottom: 0;
+  color: rgba(80, 80, 80, 0.65);
+  display: block;
+  left: 0;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin: 0;
+  right: 0;
+  top: 0;
+  cursor: text;
+  font-size: 16px;
+  font-size: 1rem;
+  padding: 8px 10px;
+  padding: 0.5rem 0.65rem;
+  position: absolute;
+  white-space: nowrap;
+}
+/* line 22, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-forms.css.scss */
+.infield-label label.label-xxlarge {
+  font-size: 19px;
+  font-size: 1.2rem;
+  line-height: 34px;
+  line-height: 2.1rem;
+}
+
+/* line 30, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-forms.css.scss */
+.placeholder-focus label {
+  background: #0079c1;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  font-size: 0.875rem;
+  bottom: auto;
+  color: #fff;
+  right: auto;
+  top: -48px;
+  top: -3rem;
+}
+/* line 39, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-forms.css.scss */
+.placeholder-focus label:after {
+  display: block;
+  height: 16px;
+  height: 1rem;
+  width: 16px;
+  width: 1rem;
+  position: absolute;
+  background: #0079c1;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 12px;
+  left: 0.75rem;
+  bottom: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: -8px;
+  margin-bottom: -0.5rem;
+  content: "";
+}
+
+/* line 58, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-forms.css.scss */
+.control-group div.editor {
+  margin-top: 48px;
+  margin-top: 3rem;
+}
+/* line 60, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-forms.css.scss */
+.control-group div.editor textarea {
+  height: 400px;
+}
+
+/* line 69, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_cms-forms.css.scss */
+.group_filter {
+  width: 240px;
+  width: 15rem;
+}
+
+/* MAIN NAV */
+/* line 2, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav {
+  background: white;
+  height: 112px;
+  height: 7rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+/* line 7, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .logged-in {
+  height: 32px;
+  height: 2rem;
+  width: 100%;
+  background: #434343;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+/* line 13, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .primary-nav {
+  height: 80px;
+  height: 5rem;
+  width: 100%;
+}
+/* line 18, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .container, #main-nav .flash-message {
+  padding: 0;
+  height: 100%;
+}
+/* line 23, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .main-logo {
+  height: 100%;
+  width: auto;
+  float: left;
+  padding: 34px 0 22px 0;
+  padding: 2.15rem 0 1.35rem 0;
+  margin-right: 56px;
+  margin-right: 3.5rem;
+}
+/* line 31, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .subnav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.075);
+}
+/* line 38, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .subnav li {
+  float: left;
+  height: 100%;
+  border-left: 1px solid rgba(0, 0, 0, 0.075);
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+}
+/* line 47, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .subnav li:first-child {
+  border-left: 0;
+  padding: 0 24px;
+  padding: 0 1.5rem;
+}
+/* line 52, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .subnav li a {
+  color: white;
+  padding: 0 24px;
+  padding: 0 1.5rem;
+  height: 100%;
+  height: 100%;
+  display: block;
+}
+/* line 58, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .subnav li a:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+/* line 63, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .subnav li:before {
+  display: none;
+}
+/* line 69, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+/* line 75, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  font-size: 1.05rem;
+  margin-right: 44px;
+  margin-right: 2.75rem;
+  position: relative;
+  padding: 42px 0 0 0;
+  padding: 2.65rem 0 0 0;
+}
+/* line 84, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li:last-child {
+  margin-right: 0;
+}
+/* line 89, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #0079c1;
+}
+/* line 96, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li.active a {
+  color: #0079c1;
+  border-bottom: 1px dotted #0079c1;
+}
+/* line 100, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li.active a:hover {
+  text-decoration: none;
+}
+/* line 104, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li.active a.caret {
+  border-bottom: 0;
+}
+/* line 109, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li .caret {
+  display: inline-block;
+  height: 18px;
+  height: 1.1rem;
+  width: 18px;
+  width: 1.1rem;
+  margin-left: 8px;
+  margin-left: 0.5rem;
+  background: #f0f0f0;
+  line-height: 16px;
+  line-height: 1rem;
+  font-size: 14px;
+  font-size: 0.875rem;
+  vertical-align: top;
+  margin-top: 1px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+/* line 123, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li .caret:hover {
+  background: #0079c1;
+  border: 0;
+  text-decoration: none;
+  color: white;
+}
+/* line 129, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li .caret:focus {
+  outline: none;
+}
+/* line 135, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li.open .caret {
+  background: #095aa6;
+  text-decoration: none;
+  color: white;
+}
+/* line 142, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li .dropdown-menu {
+  top: 100%;
+  margin-top: 25px;
+  margin-right: -15px;
+}
+/* line 147, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li .dropdown-menu li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #505050;
+  width: 100%;
+  padding: 0;
+}
+/* line 156, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li .dropdown-menu li a:hover {
+  border-bottom: 0;
+}
+/* line 162, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li .dropdown-menu:after {
+  right: 15px;
+}
+/* line 167, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .mainnav li:before {
+  display: none;
+}
+/* line 173, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .btn-group {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+/* line 179, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .btn-group .btn {
+  margin-bottom: 0;
+  box-shadow: none;
+  height: 60px;
+  height: 3.75rem;
+}
+/* line 184, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .btn-group .btn:first-child {
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -ms-border-radius: 5px 0 0 0;
+  -o-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+  line-height: 60px;
+}
+/* line 188, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .btn-group .btn:nth-child(2) {
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -ms-border-radius: 0 5px 0 0;
+  -o-border-radius: 0 5px 0 0;
+  border-radius: 0 5px 0 0;
+}
+/* line 193, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_nav.css.scss */
+#main-nav .btn-group .dropdown-menu {
+  width: 125%;
+}
+
+/* SUBMENU */
+/* line 2, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_submenu.css.scss */
+#submenu {
+  background: #fafafa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 12px 0;
+  padding: 0.75rem 0;
+}
+/* line 7, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_submenu.css.scss */
+#submenu .status {
+  margin-top: 0.25em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 6px 12px 8px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/* line 20, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_submenu.css.scss */
+#submenu .status.draft {
+  background: #e74c3c;
+}
+/* line 23, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_submenu.css.scss */
+#submenu .status.published {
+  background: #2ecc71;
+}
+/* line 28, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_submenu.css.scss */
+#submenu .last-saved {
+  display: inline-block;
+  margin-top: 0.25em;
+  margin-left: 2.5em;
+  text-transform: uppercase;
+  padding: 8px 0 10px;
+  color: #505050;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 0.875rem;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+/* line 42, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_submenu.css.scss */
+#submenu .btn,
+#submenu .btn-group {
+  margin-bottom: 0;
+}
+/* line 45, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_submenu.css.scss */
+#submenu .primary-cta {
+  margin-left: 12px;
+  margin-left: 0.75rem;
+}
+
+/* MAIN FORM AREA */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content, .modal-body {
+  margin-top: 16px;
+  margin-top: 1rem;
+}
+/* line 6, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content .add-link, .modal-body .add-link {
+  margin-top: 12px;
+  margin-top: 0.75rem;
+  margin-left: 25px;
+}
+/* line 13, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content label, .modal-body label {
+  width: 23.404255319148934%;
+  *width: 23.351063829787233%;
+  margin-left: 0;
+  display: block;
+  float: left;
+}
+/* line 20, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content label + textarea, .modal-body label + textarea {
+  width: 100%;
+  float: none;
+}
+/* line 25, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content label.checkbox, .modal-body label.checkbox {
+  width: 100%;
+  float: none;
+}
+/* line 36, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content input[type=text],
+.main-content input[type=email],
+.main-content input[type=password],
+.main-content input[type=file],
+.main-content input[type=tag_list],
+.main-content input[type=number],
+.main-content select, .modal-body input[type=text],
+.modal-body input[type=email],
+.modal-body input[type=password],
+.modal-body input[type=file],
+.modal-body input[type=tag_list],
+.modal-body input[type=number],
+.modal-body select {
+  display: block;
+  float: left;
+  width: 74.46808510638297%;
+  *width: 74.41489361702126%;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
+}
+/* line 44, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content input[type=text][disabled],
+.main-content input[type=email][disabled],
+.main-content input[type=password][disabled],
+.main-content input[type=file][disabled],
+.main-content input[type=tag_list][disabled],
+.main-content input[type=number][disabled],
+.main-content select[disabled], .modal-body input[type=text][disabled],
+.modal-body input[type=email][disabled],
+.modal-body input[type=password][disabled],
+.modal-body input[type=file][disabled],
+.modal-body input[type=tag_list][disabled],
+.modal-body input[type=number][disabled],
+.modal-body select[disabled] {
+  display: block;
+  float: left;
+  width: 65.95744680851064%;
+  *width: 65.90425531914893%;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
+}
+/* line 53, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content input[type=text].input-block-level,
+.main-content input[type=email].input-block-level,
+.main-content input[type=password].input-block-level,
+.main-content input[type=file].input-block-level,
+.main-content input[type=tag_list].input-block-level,
+.main-content input[type=number].input-block-level,
+.main-content select.input-block-level, .modal-body input[type=text].input-block-level,
+.modal-body input[type=email].input-block-level,
+.modal-body input[type=password].input-block-level,
+.modal-body input[type=file].input-block-level,
+.modal-body input[type=tag_list].input-block-level,
+.modal-body input[type=number].input-block-level,
+.modal-body select.input-block-level {
+  width: 100%;
+  margin-left: 0;
+  float: none;
+}
+/* line 59, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_main-area.css.scss */
+.main-content textarea, .modal-body textarea {
+  width: 100%;
+  float: none;
+}
+
+/* SITEMAP TABLE */
+/* line 2, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+#sitemap {
+  display: table;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+/* line 9, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+#sitemap .children {
+  width: 100%;
+  height: 0%;
+}
+/* line 12, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+#sitemap .children.hide {
+  display: none;
+}
+
+/* line 19, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list {
+  width: 100%;
+  list-style-type: none;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+/* line 31, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list.hide {
+  display: none;
+}
+/* line 34, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 43, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item:before {
+  display: none;
+}
+/* line 47, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span {
+  display: block;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 11px;
+  padding: 0.7rem;
+  font-size: 18px;
+  font-size: 1.1rem;
+}
+/* line 55, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span:hover {
+  cursor: pointer;
+  background: rgba(154, 153, 153, 0.175);
+}
+/* line 59, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span:hover .type-icon {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* line 64, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.droppable {
+  background: #0079c1;
+}
+/* line 67, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.active {
+  background: rgba(154, 153, 153, 0.4);
+}
+/* line 70, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.active .type-icon {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+/* line 75, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span .type-icon {
+  font-size: 14px;
+  font-size: 0.85rem;
+  vertical-align: top;
+  margin-right: 8px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  margin-top: 1px;
+}
+/* line 86, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-2 {
+  padding-left: 30px;
+}
+/* line 89, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-3 {
+  padding-left: 60px;
+}
+/* line 93, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-4 {
+  padding-left: 90px;
+}
+/* line 96, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-5 {
+  padding-left: 120px;
+}
+/* line 99, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-6 {
+  padding-left: 150px;
+}
+/* line 102, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-7 {
+  padding-left: 180px;
+}
+/* line 105, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-8 {
+  padding-left: 210px;
+}
+/* line 108, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-9 {
+  padding-left: 240px;
+}
+/* line 111, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.level-10 {
+  padding-left: 270px;
+}
+/* line 115, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list .nav-list-item .nav-list-span.last-item {
+  border-bottom: 0;
+}
+
+/* line 122, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.edit-group {
+  height: 70%;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: 0.15s;
+  -o-transition: 0.15s;
+  transition: 0.15s;
+  list-style-type: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 133, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.edit-group:hover {
+  background: rgba(9, 90, 166, 0.65);
+}
+/* line 137, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.edit-group li {
+  display: block;
+  float: left;
+  height: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: rgba(9, 90, 166, 0.7);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
+}
+/* line 150, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.edit-group li:first-child {
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  -ms-border-radius: 2px 0 0 2px;
+  -o-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* line 154, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.edit-group li:last-child {
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  -ms-border-radius: 0 2px 2px 0;
+  -o-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+/* line 158, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.edit-group li:before {
+  display: none;
+}
+/* line 162, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.edit-group li:hover {
+  background: #085297;
+}
+/* line 166, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.edit-group li .add-link {
+  display: block;
+  margin: 0;
+  padding: 0 20px;
+  height: 100%;
+  line-height: 25px;
+  margin-left: 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+}
+/* line 180, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.nav-list-span:hover .edit-group, .nav-list-span:active .edit-group {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 185, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.permission-group {
+  float: right;
+  display: inline-block;
+  cursor: default;
+}
+/* line 190, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.permission-group .draft {
+  color: white;
+  text-transform: uppercase;
+  background: #e74c3c;
+  font-weight: 700;
+  padding: 2px 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 203, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sitemap.css.scss */
+.permission-group .permission-icon {
+  color: #e74c3c;
+  font-size: 14px;
+  font-size: 0.875rem;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+/* ASSETS PAGE */
+/* line 18, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+.assets input[type=checkbox] {
+  margin-right: 0;
+}
+/* line 22, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+.assets .check-cell {
+  width: 32px;
+  width: 2rem;
+}
+/* line 27, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+.assets .draft {
+  color: white;
+  text-transform: uppercase;
+  background: #e74c3c;
+  font-weight: 700;
+  padding: 2px 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+/* line 31, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+.assets .published {
+  color: white;
+  text-transform: uppercase;
+  background: #2ecc71;
+  font-weight: 700;
+  padding: 2px 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+/* line 35, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+.assets .caret {
+  margin-left: 10px;
+  color: #505050;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+/* line 40, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+.assets .caret:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+/* line 47, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+.assets tbody tr {
+  position: relative;
+}
+/* line 50, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+.assets tbody tr:hover {
+  background: rgba(154, 153, 153, 0.175);
+  cursor: pointer;
+}
+
+/* line 59, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_assets.css.scss */
+#asset_add_uploader {
+  display: none;
+}
+
+/* DASHBOARD */
+/* line 4, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_dashboard.css.scss */
+.dashboard .draft {
+  color: white;
+  text-transform: uppercase;
+  background: #e74c3c;
+  font-weight: 700;
+  padding: 2px 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+/* line 20, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_dashboard.css.scss */
+.dashboard tbody tr:hover {
+  background: rgba(154, 153, 153, 0.175);
+  cursor: pointer;
+}
+
+/* SIDEBAR BLOCK */
+/* line 3, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.sidebar-block {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 16px 20px 20px 20px;
+  padding: 1rem 1.25rem 1.25rem 1.25rem;
+  margin-top: 16px;
+  margin-top: 1rem;
+}
+/* line 11, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.sidebar-block h4.label {
+  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
+}
+/* line 16, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.sidebar-block .draft {
+  color: white;
+  text-transform: uppercase;
+  background: #e74c3c;
+  font-weight: 700;
+  padding: 2px 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+/* line 19, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.sidebar-block .published {
+  color: white;
+  text-transform: uppercase;
+  background: #2ecc71;
+  font-weight: 700;
+  padding: 2px 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+/* line 23, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.sidebar-block label {
+  color: #9a9999;
+}
+/* line 26, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.sidebar-block select {
+  margin-top: 6px;
+  margin-top: 0.35rem;
+}
+/* line 38, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.sidebar-block div:last-child,
+.sidebar-block h1:last-child,
+.sidebar-block h2:last-child,
+.sidebar-block h3:last-child,
+.sidebar-block h4:last-child,
+.sidebar-block h5:last-child,
+.sidebar-block h6:last-child,
+.sidebar-block p:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+/* line 48, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.sidebar-block input:last-child,
+.sidebar-block label:last-child,
+.sidebar-block select:last-child,
+.sidebar-block textarea:last-child, .sidebar-block .row-fluid:last-child {
+  margin-bottom: 0;
+}
+
+/* line 53, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.add-link {
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-bottom: 1px dotted #095aa6;
+  margin-top: 4px;
+  margin-top: 0.25rem;
+}
+/* line 61, /usr/local/rvm/gems/ruby-2.0.0-p195@ruby2rails4/gems/browsercms-4.0.0.beta/app/assets/stylesheets/cms/_sidebar.css.scss */
+.add-link:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #0079c1;
+}

@@ -172,6 +172,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.2.0)
   browsercms (= 4.0.0.beta)
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
