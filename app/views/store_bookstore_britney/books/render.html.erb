@@ -4,7 +4,7 @@
     <dt>Author:</dt>
       <dd>
         <% @content_block.authors.each do |author| %>
-          <li><%= link_to author.name, author %></li>
+          <li><%= link_to author.name, "/authors/#{author.slug}" %></li>
         <% end %>
       </dd>
     <dt>Genres:</dt>
@@ -20,7 +20,7 @@
 <% @content_block.authors.each do |author| %>
   <% author.books.each do |book| %>
     <% unless book == @content_block %>
-      <li><%= link_to book.name, book %></li>
+      <li><%= link_to book.name, book.slug %></li>
     <% end %>
   <% end %>
 <% end %>
