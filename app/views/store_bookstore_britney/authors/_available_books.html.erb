@@ -1,0 +1,6 @@
+<h3>Available Books</h3>
+<% @content_block.books.each do |book| %>
+    <% unless book.in_stock == false %>
+      <li><%= link_to book.name, book.slug %></li>
+    <% end %>
+<% end %>

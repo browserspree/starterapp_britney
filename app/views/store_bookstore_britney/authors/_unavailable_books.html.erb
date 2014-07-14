@@ -1,0 +1,6 @@
+<h3>Other Books by This Author</h3>
+<% @content_block.books.each do |book| %>
+    <% unless book.in_stock == true %>
+      <li><%= link_to book.name, book.slug %></li>
+    <% end %>
+<% end %>

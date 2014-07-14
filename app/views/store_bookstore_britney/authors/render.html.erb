@@ -8,5 +8,13 @@
         <% end %>
       </dd>
         <dt>Headshot:</dt><dd><%= link_to "Headshot", attachment_path_for(@content_block.headshot) %></dd>
-    
 </dl>
+
+<div class="row">
+  <div class="col-md-3">
+    <%= render 'available_books' %>
+  </div>
+  <div class="col-md-3">
+    <%= render 'unavailable_books' %>
+  </div>
+</div>
