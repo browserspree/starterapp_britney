@@ -1,0 +1,8 @@
+<h3>Here's some other available books by this author:</h3>
+<% @content_block.authors.each do |author| %>
+  <% author.books.each do |book| %>
+    <% unless book == @content_block || !book.in_stock %>
+      <li><%= link_to book.name, book.slug %></li>
+    <% end %>
+  <% end %>
+<% end %>

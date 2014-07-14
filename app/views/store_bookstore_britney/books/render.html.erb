@@ -15,12 +15,13 @@
       </dd>      
     <dt>Description:</dt><dd><%= @content_block.description.html_safe %></dd>    
 </dl>
+
 <hr>
-<p>Here's some other books by this author:</p>
-<% @content_block.authors.each do |author| %>
-  <% author.books.each do |book| %>
-    <% unless book == @content_block %>
-      <li><%= link_to book.name, book.slug %></li>
-    <% end %>
-  <% end %>
-<% end %>
+
+<div class="row">
+  <div class="col-md-3">
+    <%= render 'authors_available_books' %>
+  </div>
+  <div class="col-md-3">
+  </div>
+</div>

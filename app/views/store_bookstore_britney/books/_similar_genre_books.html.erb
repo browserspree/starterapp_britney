@@ -1,0 +1,8 @@
+<h3>If you like this book, you may like these too:</h3>
+<% @content_block.categories.books.each do |category| %>
+  <% category.books.each do |book| %>
+    <% unless book == @content_block || !book.in_stock %>
+      <li><%= link_to book.name, book.slug %></li>
+    <% end %>
+  <% end %>
+<% end %>
